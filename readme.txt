@@ -10,3 +10,8 @@ git commit -m   添加到本地仓库
 git status   查看结果
 git 分为工作区,暂存区,本地仓库,代码托管
 HEAD^ 回退上一个版本HEAD^^回退上2个版本,HEAD~1002
+git reset --hard HEAD
+git log 
+git reflog        
+git diff  HEAD -- readme.txt
+ git checkout -- readme.txt
