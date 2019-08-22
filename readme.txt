@@ -15,7 +15,8 @@ git log       查看日志
 git reflog        查看日志 
 git diff  HEAD -- readme.txt        查看与版本库的区别
  git checkout -- readme.txt         把工作区的内容撤销
-git reset HEAD readme.txt           从暂存区修改    
-ssh-keygen -t rsa -C 'yourEmail'
-git remote add origin 
-git push -u origin master
+git reset HEAD readme.txt           从暂存区修改   
+ 
+ssh-keygen -t rsa -C 'yourEmail'      生成id_ssh  id_ssh_pub
+git remote add origin                  关联远程库
+git push -u origin master             像远程库推送
