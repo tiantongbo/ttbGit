@@ -34,3 +34,4 @@ git push -u origin master             像远程库推送
 
 删除分支：git branch -d <name>
 
+quanxintijiao
