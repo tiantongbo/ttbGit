@@ -15,3 +15,4 @@ git log
 git reflog        
 git diff  HEAD -- readme.txt
  git checkout -- readme.txt
+git reset HEAD readme.txt
