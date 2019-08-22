@@ -34,5 +34,6 @@ git push -u origin master             像远程库推送
 
 删除分支：git branch -d <name>
 
-quanxintijiaosadasdaswwwwwwwww
-ssssssss
+合并分支
+git merge --no-ff-m  'merge with no ff' dev
+ 
