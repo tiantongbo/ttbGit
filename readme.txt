@@ -17,3 +17,4 @@ git diff  HEAD -- readme.txt
  git checkout -- readme.txt
 git reset HEAD readme.txt
 ssh-keygen -t rsa -C 'yourEmail'
+git remote add origin 
