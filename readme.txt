@@ -10,11 +10,12 @@ git commit -m   添加到本地仓库
 git status   查看结果
 git 分为工作区,暂存区,本地仓库,代码托管
 HEAD^ 回退上一个版本HEAD^^回退上2个版本,HEAD~1002
-git reset --hard HEAD
-git log 
-git reflog        
-git diff  HEAD -- readme.txt
- git checkout -- readme.txt
-git reset HEAD readme.txt
+git reset --hard HEAD 会退到一个版本
+git log       查看日志
+git reflog        查看日志 
+git diff  HEAD -- readme.txt        查看与版本库的区别
+ git checkout -- readme.txt         把工作区的内容撤销
+git reset HEAD readme.txt           从暂存区修改    
 ssh-keygen -t rsa -C 'yourEmail'
 git remote add origin 
+git push -u origin master
