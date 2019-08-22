@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 git config --global user.name 'yourname'
 git config --global user.email 'email'
 
@@ -34,4 +34,5 @@ git push -u origin master             像远程库推送
 
 删除分支：git branch -d <name>
 
-quanxintijiao
+quanxintijiaosadasdaswwwwwwwww
+ssssssss
