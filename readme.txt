@@ -36,4 +36,11 @@ git push -u origin master             像远程库推送
 
 合并分支
 git merge --no-ff-m  'merge with no ff' dev
+
+
+git stash   保存现场
+git stash list  查看现场
+git stash apply  stash@{0} 恢复现场   git stash drop 删除stash现场
+git stash pop  恢复现场并删除stash
+git cherry-pick  git cherry-pick <commit>复制提交操作
  
