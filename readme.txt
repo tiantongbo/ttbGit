@@ -20,3 +20,17 @@ git reset HEAD readme.txt           从暂存区修改
 ssh-keygen -t rsa -C 'yourEmail'      生成id_ssh  id_ssh_pub
 git remote add origin                  关联远程库
 git push -u origin master             像远程库推送
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+Creating a new branch is quick AND simple.
+3213131312
