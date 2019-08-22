@@ -32,5 +32,3 @@ git push -u origin master             像远程库推送
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
-Creating a new branch is quick AND simple.
-3213131312
